@@ -1,9 +1,6 @@
-def toyou(x):
-    return f"hi {x}"
+def add(x,y):
+    return x + y
 
-def add(x):
-    return x + 1
-
-def subtract(x):
-    return x - 1
+result = add(1,2)
+print ("This is the result %s" %result)
     
