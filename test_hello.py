@@ -1,3 +1,16 @@
+from hello import add
+
+
+def setup_function(function):
+    print(" Running Setup")
+    function.x = 1
+
+
+def test_hello_add():
+    assert add(test_hello_add.x) == 2
+
+"""
+
 from hello import toyou, add, subtract
 
 
@@ -17,3 +30,5 @@ def teardown_function(function):
 
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
+
+"""
