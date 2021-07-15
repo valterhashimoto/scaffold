@@ -1,4 +1,4 @@
-name: Azure Pyhton 3.5
+name: Azure Python 3.5
 
 on: [push]
 
